@@ -1,0 +1,13 @@
+[project]
+name = "kaggle-agent"
+version = "0.1.0"
+description = "A reusable, LLM-powered agent for automating Kaggle competition pipelines."
+authors = ["Your Name <your@email.com>"]
+requires-python = ">=3.8"
+dependencies = [
+    "nbformat",
+    "requests"
+]
+
+[tool.setuptools.packages.find]
+where = ["agent"]
